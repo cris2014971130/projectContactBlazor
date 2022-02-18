@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cachamorrov\\Desktop\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj": {}
+    "C:\\Users\\cachamorrov\\Desktop\\Nueva carpeta\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cachamorrov\\Desktop\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj": {
+    "C:\\Users\\cachamorrov\\Desktop\\Nueva carpeta\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cachamorrov\\Desktop\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj",
+        "projectUniqueName": "C:\\Users\\cachamorrov\\Desktop\\Nueva carpeta\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj",
         "projectName": "WebApplicationContact",
-        "projectPath": "C:\\Users\\cachamorrov\\Desktop\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj",
+        "projectPath": "C:\\Users\\cachamorrov\\Desktop\\Nueva carpeta\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj",
         "packagesPath": "C:\\Users\\cachamorrov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cachamorrov\\Desktop\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\obj\\",
+        "outputPath": "C:\\Users\\cachamorrov\\Desktop\\Nueva carpeta\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cachamorrov\\AppData\\Roaming\\NuGet\\NuGet.Config",

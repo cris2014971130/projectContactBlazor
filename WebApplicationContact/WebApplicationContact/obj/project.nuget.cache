@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fgv+tlZkSw+Aw8mnv/KhtB4S+ypZtdovb8z5gn/QazWU8oE4nP/N4tQSvarYVNCyQBcqDb05+UbS229JTvp7zQ==",
+  "dgSpecHash": "V9/3P5Zy3Mw/serzpEEcXkjvlrsmjy8+YdQdpigFYpJctTHtgHYv8LZBnzmI2ZTgo2eKB9JeJeAW5p/1VWvNEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cachamorrov\\Desktop\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj",
+  "projectFilePath": "C:\\Users\\cachamorrov\\Desktop\\Nueva carpeta\\projectContactBlazor\\WebApplicationContact\\WebApplicationContact\\WebApplicationContact.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cachamorrov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cachamorrov\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
