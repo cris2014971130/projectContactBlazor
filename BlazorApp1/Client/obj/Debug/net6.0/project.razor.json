@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
+  "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "6.0",
@@ -8,134 +8,101 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 312364264,
+        "HashCode": 1843362717,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.App",
+        "Name": "BlazorApp1.Client.Pages.Delete",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Delete"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.App"
+          "Common.TypeName": "BlazorApp1.Client.Pages.Delete"
         }
       },
       {
-        "HashCode": 781271397,
+        "HashCode": -595927978,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.App",
+        "Name": "BlazorApp1.Client.Pages.Delete",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp1.Client.App"
+            "TagName": "BlazorApp1.Client.Pages.Delete"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.App",
+          "Common.TypeName": "BlazorApp1.Client.Pages.Delete",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1244286825,
+        "HashCode": -1635596903,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Contacts.Index",
+        "Name": "BlazorApp1.Client.Pages.ListContact",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "ListContact"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Contacts.Index"
+          "Common.TypeName": "BlazorApp1.Client.Pages.ListContact"
         }
       },
       {
-        "HashCode": -289446927,
+        "HashCode": 778884029,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Contacts.Index",
+        "Name": "BlazorApp1.Client.Pages.ListContact",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp1.Client.Pages.Contacts.Index"
+            "TagName": "BlazorApp1.Client.Pages.ListContact"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Contacts.Index",
+          "Common.TypeName": "BlazorApp1.Client.Pages.ListContact",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -833225661,
+        "HashCode": -668111046,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Counter",
+        "Name": "BlazorApp1.Client.Pages.Search",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Search"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Counter"
+          "Common.TypeName": "BlazorApp1.Client.Pages.Search"
         }
       },
       {
-        "HashCode": 696970613,
+        "HashCode": -573278757,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Counter",
+        "Name": "BlazorApp1.Client.Pages.Search",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp1.Client.Pages.Counter"
+            "TagName": "BlazorApp1.Client.Pages.Search"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -276712531,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.FetchData",
-        "AssemblyName": "BlazorApp1.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -25225163,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.FetchData",
-        "AssemblyName": "BlazorApp1.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp1.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.FetchData",
+          "Common.TypeName": "BlazorApp1.Client.Pages.Search",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -351,6 +318,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorApp1.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 312364264,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp1.Client.App",
+        "AssemblyName": "BlazorApp1.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp1.Client.App"
+        }
+      },
+      {
+        "HashCode": 781271397,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp1.Client.App",
+        "AssemblyName": "BlazorApp1.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp1.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp1.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13672,48 +13672,58 @@
   "RootNamespace": "BlazorApp1.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Contacts\\Index.razor",
-      "TargetPath": "Pages\\Contacts\\Index.razor",
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Pages\\ListContact.razor",
+      "TargetPath": "Pages\\ListContact.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Delete.razor",
+      "TargetPath": "Pages\\Delete.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Add.razor",
+      "TargetPath": "Pages\\Add.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Search.razor",
+      "TargetPath": "Pages\\Search.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Client\\Pages\\Exist.razor",
+      "TargetPath": "Pages\\Exist.razor",
       "FileKind": "component"
     }
   ],

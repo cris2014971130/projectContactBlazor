@@ -1,8 +1,8 @@
-﻿@page  "/Contact"
+﻿@page  "/ListContact"
 @using BlazorApp1.Shared;
 @inject HttpClient Http
 @inject NavigationManager Navigation
-<h3>Películass</h3>
+<h3>Contacts</h3>
 @if (_contacts == null)
 {
     <p><em>Cargando...</em></p>
@@ -27,22 +27,12 @@ else
                     <td>@contact.name</td>
                     <td>@contact.phone</td>
                     <td>@contact.cellphone</td>
-                    <td>
-                        <button class="btn btn-info"
-                                @onclick="(() => Edit(contact.id))">
-                            Edit
-                        </button>
-                        <button class="btn btn-danger"
-                                @onclick="(() => Delete(contact.id))">
-                            Delete
-                        </button>
-                    </td>
                 </tr>
             }
         </tbody>
     </table>
     <div>
-        <button class="btn btn-success" @onclick="Create">Añadirr películaa</button>
+        <button class="btn btn-success" @onclick="Create">Añadir Contacto</button>
     </div>
 }
 @code {
@@ -53,19 +43,8 @@ else
         _contacts = await Http.GetFromJsonAsync<List<Contact>>("https://localhost:7289/api/Contact");
     }
     
-    private async Task Delete(int id)
-    {
-        /**await Http.DeleteAsync($"/api/Films/{id}");
-        _contacts = Http.GetFromJsonAsync<List<Contact>>("/api/Contact");
-       
-        StateHasChanged();*/
-    }
-    private void Edit(int id)
-    {
-        Navigation.NavigateTo($"/film/edit/{id}");
-    }
     private void Create()
     {
-        Navigation.NavigateTo("/film/create");
+        Navigation.NavigateTo($"/add");
     }
 }

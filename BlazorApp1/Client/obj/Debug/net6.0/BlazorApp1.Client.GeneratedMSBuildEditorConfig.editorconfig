@@ -11,45 +11,53 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorApp1.Client
 build_property.RootNamespace = BlazorApp1.Client
-build_property.ProjectDir = c:\Users\cachamorrov\Desktop\jaja\BlazorApp1\BlazorApp1\Client\
+build_property.ProjectDir = c:\Users\cachamorrov\Desktop\projectContactBlazorMemory\BlazorApp1\BlazorApp1\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\cachamorrov\Desktop\jaja\BlazorApp1\BlazorApp1\Client
+build_property.MSBuildProjectDirectory = c:\Users\cachamorrov\Desktop\projectContactBlazorMemory\BlazorApp1\BlazorApp1\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/App.razor]
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Pages/Contacts/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHNcSW5kZXgucmF6b3I=
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Pages/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Pages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Pages/Exist.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Pages/Index.razor]
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Shared/SurveyPrompt.razor]
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Pages/ListContact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdENvbnRhY3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Pages/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/_Imports.razor]
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Shared/MainLayout.razor]
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-s8xsnq6cv2
 
-[c:/Users/cachamorrov/Desktop/jaja/BlazorApp1/BlazorApp1/Client/Shared/NavMenu.razor]
+[c:/Users/cachamorrov/Desktop/projectContactBlazorMemory/BlazorApp1/BlazorApp1/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-aw7s1uks9t

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
+  "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -4592,101 +4592,101 @@
         }
       },
       {
-        "HashCode": 1244286825,
+        "HashCode": 1843362717,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Contacts.Index",
+        "Name": "BlazorApp1.Client.Pages.Delete",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Delete"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Contacts.Index"
+          "Common.TypeName": "BlazorApp1.Client.Pages.Delete"
         }
       },
       {
-        "HashCode": -289446927,
+        "HashCode": -595927978,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Contacts.Index",
+        "Name": "BlazorApp1.Client.Pages.Delete",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp1.Client.Pages.Contacts.Index"
+            "TagName": "BlazorApp1.Client.Pages.Delete"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Contacts.Index",
+          "Common.TypeName": "BlazorApp1.Client.Pages.Delete",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -833225661,
+        "HashCode": -1635596903,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Counter",
+        "Name": "BlazorApp1.Client.Pages.ListContact",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "ListContact"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Counter"
+          "Common.TypeName": "BlazorApp1.Client.Pages.ListContact"
         }
       },
       {
-        "HashCode": 696970613,
+        "HashCode": 778884029,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.Counter",
+        "Name": "BlazorApp1.Client.Pages.ListContact",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp1.Client.Pages.Counter"
+            "TagName": "BlazorApp1.Client.Pages.ListContact"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.Counter",
+          "Common.TypeName": "BlazorApp1.Client.Pages.ListContact",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -276712531,
+        "HashCode": -668111046,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.FetchData",
+        "Name": "BlazorApp1.Client.Pages.Search",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Search"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.FetchData"
+          "Common.TypeName": "BlazorApp1.Client.Pages.Search"
         }
       },
       {
-        "HashCode": -25225163,
+        "HashCode": -573278757,
         "Kind": "Components.Component",
-        "Name": "BlazorApp1.Client.Pages.FetchData",
+        "Name": "BlazorApp1.Client.Pages.Search",
         "AssemblyName": "BlazorApp1.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp1.Client.Pages.FetchData"
+            "TagName": "BlazorApp1.Client.Pages.Search"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp1.Client.Pages.FetchData",
+          "Common.TypeName": "BlazorApp1.Client.Pages.Search",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16645,7 +16645,7 @@
   "RootNamespace": "BlazorApp1.Server",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\jaja\\BlazorApp1\\BlazorApp1\\Server\\Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\cachamorrov\\Desktop\\projectContactBlazorMemory\\BlazorApp1\\BlazorApp1\\Server\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     }

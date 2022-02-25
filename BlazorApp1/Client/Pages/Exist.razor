@@ -1,0 +1,37 @@
+@page "/exist"
+@using BlazorApp1.Shared;
+@inject HttpClient Http
+@inject NavigationManager Navigation
+<h3>Buscar Contacto</h3>
+<EditForm Model="@_contact">
+        <div class="form-group">
+            <label>Nombre: </label>
+            <InputText @bind-Value="name" />
+            <button type="submit" class="btn btn-success" @onclick="(() => isExist(name))">Buscar Contacto</button>
+        </div>
+</EditForm>
+ 
+        <div class="alert alert-secondary mt-4">
+        <span class="oi oi-person me-2" aria-hidden="true"></span>
+    <strong>Información del Mensaje</strong><br><br>
+    <span class="text-nowrap">
+    <p>Mensaje: @message</p>
+    </span>
+
+        </div>
+@code {
+    private Contact _contact = new();
+    private string name;
+    private string message;
+
+private async Task isExist(string name)
+    {
+        bool contactRes = await Http.GetFromJsonAsync<bool>($"/api/Contact/isExist/{name}");
+        if(contactRes == true){
+            message = "Contacto Encontrado";
+        }else{
+            message = "Contacto No Encontrado";
+        }
+        
+    }
+}
