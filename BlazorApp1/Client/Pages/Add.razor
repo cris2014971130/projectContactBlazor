@@ -2,29 +2,63 @@
 @using BlazorApp1.Shared;
 @inject HttpClient Http
 @inject NavigationManager Navigation
-<h3>Add Contact</h3>
+@using Microsoft.Extensions.Logging
+@inject ILogger<Contact> Logger
+@inject IJSRuntime JsRuntime
+
+<h3>Agregar Contacto</h3>
+
 <EditForm Model="@_contact" OnValidSubmit="Post">
+    <DataAnnotationsValidator/>
     <div class="form-group">
-        <label>Name Contact: </label>
+        <label>Nombre de Contacto: </label>
         <InputTextArea @bind-Value="_contact.name" />
+        <ValidationMessage For= "@(() => _contact.name)"/>
     </div>
     <div class="form-group">
-        <label>Phone Contact</label>
+        <label>Telefono de Contacto</label>
         <InputTextArea @bind-Value="_contact.phone"/>
+        <ValidationMessage For= "@(() => _contact.phone)"/>
     </div>
     <div class="form-group">
-        <label>Cellphone Contact</label>
+        <label>Celular de Contacto</label>
         <InputTextArea @bind-Value="_contact.cellphone"/>
+        <ValidationMessage For= "@(() => _contact.cellphone)"/>
     </div>
     <div class="form-group">
-        <input type="submit" class="btn btn-success" value="Add Contact" />
+        <input type="submit" class="btn btn-success" value="Agregar Contacto" />
     </div>
 </EditForm>
+
+<div class="alert alert-secondary mt-4">
+        <span class="oi oi-person me-2" aria-hidden="true"></span>
+    <strong>Información del Mensaje</strong><br><br>
+    <span class="text-nowrap">
+    <p>Mensaje: @message</p>
+    </span>
+</div>
 @code {
     private Contact _contact = new();
-    private async Task Post()
-    {
-        await Http.PostAsJsonAsync<Contact>("/api/Contact", _contact);
-        Navigation.NavigateTo($"/listContact");
+    private string message = "";
+
+    private async Task Post(){
+        if(validateInfo()){
+            await Http.PostAsJsonAsync<Contact>("/api/Contact", _contact);
+            await JsRuntime.InvokeVoidAsync("alert", "Contacto Agregado Correctamente");
+            Navigation.NavigateTo($"/listContact");
+        }else{
+            message = "Los datos solicitados se encuentran vacios";
+        }        
+    }
+
+    private bool validateInfo(){
+        if(_contact.name == null || _contact.name == " "){
+            return false;
+        }else if(_contact.phone == null || _contact.phone == " "){
+            return false;
+        }else if(_contact.cellphone == null || _contact.cellphone == " "){
+            return false;
+        }
+        return true;
     }
 }

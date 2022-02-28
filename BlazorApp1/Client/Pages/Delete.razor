@@ -2,6 +2,7 @@
 @using BlazorApp1.Shared;
 @inject HttpClient Http
 @inject NavigationManager Navigation
+@inject IJSRuntime JsRuntime
 
 <h3>Eliminar Contacto</h3>
 
@@ -28,7 +29,32 @@
     private string name;
 
     private async Task deleteByName(string name){
-        var contactRes = await Http.DeleteAsync($"/api/Contact/{name}");     
-        message = contactRes.ReasonPhrase.ToString();      
+        if(validateInfo(name)){
+            _contact = await Http.GetFromJsonAsync<Contact>($"/api/Contact/{name}");
+            if(_contact.name != null){
+                var contactRes = await Http.PostAsJsonAsync<Contact>($"/api/Contact/delete/",_contact);     
+                message = getInfo(contactRes); 
+            }else{
+                 await JsRuntime.InvokeVoidAsync("alert", "No se encontro el contacto buscado");
+            }  
+        }else{
+            message = "No ha completado la información correctamente";
+        }
+             
+    }
+
+    private bool validateInfo(string name){
+        if(name == null || name == ""){
+            return false;
+        }
+        return true;
+    }
+
+    private string getInfo(HttpResponseMessage message){
+        this.message = message.ToString();
+        if(message.ReasonPhrase.Equals("OK")){
+            return "El contacto fue eliminado correctamente";
+        }
+        return "Error al eliminar el contacto";
     }
 }
