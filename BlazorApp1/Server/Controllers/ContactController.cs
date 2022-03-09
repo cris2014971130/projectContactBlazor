@@ -7,12 +7,10 @@ namespace BlazorApp1.Server.Controllers;
 [ApiController]
 public class ContactController : ControllerBase{
 
-    private readonly ContactDbContext _context;
     private Controller controller;
 
     public ContactController(ContactDbContext context){
-        _context = context;
-        controller = new Controller(_context);
+        controller = new Controller(context);
     }
 
     // GET: api/Contact
