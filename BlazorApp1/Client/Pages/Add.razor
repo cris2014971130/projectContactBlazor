@@ -42,13 +42,17 @@
     private string message = "";
 
     private async Task Post(){
+        isExist(_contact.name);
         if(validateInfo()){
             await Http.PostAsJsonAsync<Contact>("/api/Contact", _contact);
-            await JsRuntime.InvokeVoidAsync("alert", "Contacto Agregado Correctamente");
-            Navigation.NavigateTo($"/listContact");
+            if(message != "El contacto ya existe"){
+                message = "Contacto Agregado Correctamente";
+            }     
         }else{
             message = "Los datos solicitados se encuentran vacios";
         }        
+        await JsRuntime.InvokeVoidAsync("alert", message);
+        Navigation.NavigateTo($"/listContact");
     }
 
     private bool validateInfo(){
@@ -60,5 +64,12 @@
             return false;
         }
         return true;
+    }
+
+    private async void isExist(string name){
+        bool contactRes = await Http.GetFromJsonAsync<bool>($"/api/Contact/isExist/{name}");
+        if(contactRes==true){
+            message = "El contacto ya existe";
+        }
     }
 }

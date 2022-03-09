@@ -8,62 +8,41 @@ namespace BlazorApp1.Server.Controllers;
 public class ContactController : ControllerBase{
 
     private readonly ContactDbContext _context;
+    private Controller controller;
 
     public ContactController(ContactDbContext context){
         _context = context;
+        controller = new Controller(_context);
     }
 
     // GET: api/Contact
     [HttpGet("list")]
     public IEnumerable<Contact> GetAllContacts(){  
-            return _context.Contacts.ToList();
+        return controller.getContacts();
     }
 
     [HttpPost]
     public string AddContact(Contact contact){
-        _context.Contacts.Add(contact);
-        _context.SaveChanges();
-        return "Contacto Agregado.. Redireccionando a la Lista";
+        return controller.addContact(contact);
     }
 
     [HttpGet("{name}")]
     public Contact GetContactByName(string name){
-        Contact contact = _context.Contacts.SingleOrDefault(e => e.name == name);
-        if(contact == null){
-            return new Contact();
-        }
-        return contact;
+        return controller.searchContact(name);
     }
 
     [HttpGet("isExist/{name}")]
     public bool isExist(string name){
-        if(_context.Contacts.SingleOrDefault(e => e.name == name)!= null){
-            return true;
-        }
-        return false;
+        return controller.isExist(name);
     }
 
     [HttpGet("space")]
     public int spaceOcuped(){
-        return _context.Contacts.ToList().Count;
+        return controller.spaceOcuped();
     }
 
     [HttpPost("delete")]
     public string DeleteContact(Contact _contact){
-        if (_contact == null){
-            return "Contacto No Encontrado";
-        }
-        _context.Contacts.Remove(_contact);
-        _context.SaveChangesAsync();
-        return "Contacto Encontrado y Eliminado Correctamente";
-    }
-
-    public int getContact(Contact _contact){
-        foreach (var item in _context.Contacts){
-            if (item.name.Equals(_contact.name)){
-                return item.id;
-            }
-        }
-        return -1;
+        return controller.DeleteContact(_contact);
     }
 }
